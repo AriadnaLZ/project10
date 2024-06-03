@@ -1,0 +1,19 @@
+.sectionNuevoAsistente {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+.tituloNuevoAsistente {
+  font-size: 35px;
+  color: rgb(237, 159, 159);
+  text-decoration: underline;
+  text-align: center;
+}
+
+.pAceptado {
+  font-size: 20px;
+  color: rgb(237, 159, 159);
+}

@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+

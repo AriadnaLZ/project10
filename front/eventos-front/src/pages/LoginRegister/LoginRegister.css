@@ -1,0 +1,42 @@
+.formLogin {
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ align-items: center;
+}
+
+input {
+  background-color: rgb(218, 184, 184);
+  color: black;
+  text-align: center;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonLogin {
+  height: 50px;
+  width: 90px;
+  background-color: rgb(231, 220, 220);
+  font-size: 20px;
+
+}
+
+.pError {
+  color: red;
+}
+
+.sectionButtonsLogin {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+padding-top: 50px;
+}
+
+.divRegistro {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,65 @@
+.sectionProximosViajes {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.articleEvento {
+  width: 250px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: solid 2px rgba(255, 255, 255, 0.201);
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.imgEventoProximo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(185, 172, 172, 0.555);
+  transition: transform 0.3s ease;
+}
+
+.precio {
+  font-size: 17px;
+}
+
+.descripcion {
+  font-size: 18px;
+  text-align: center;
+}
+
+.divDescripcion {
+  height: 300px;
+}
+
+.divTitulo {
+  height: 60px;
+}
+
+.buttonAsistente {
+  font-size: 25px;
+  width: 130px;
+  height: 40px;
+  background-color: rgba(212, 177, 203, 0.953);
+}
+
+.pAsistentes {
+  cursor: pointer;
+  text-decoration: underline;
+ font-size: 20px;
+ text-underline-offset:7px;
+ text-decoration-thickness: 0.8px
+}
+

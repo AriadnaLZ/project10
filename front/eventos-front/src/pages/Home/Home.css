@@ -1,0 +1,24 @@
+
+
+.sectionImages{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.sectionImages  img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(185, 172, 172, 0.555);
+  transition: transform 0.3s ease;
+}
+
+.sectionImages img:hover {
+  transform: scale(1.15);
+  z-index: 999;
+}
